@@ -11,6 +11,13 @@ npm install --save node-seo-validator
 ```
 
 ## Usage
+
+### seo(htmlFilePath, outputLogPath, applyRules)
+**Parameters**
+* `htmlFilePath`: Static html file input
+* `outputLogPath`: Log path for output validation result
+* `applyRules`: SEO rule names in array, these rule name should be configured in `src/rules.js`
+
 Currently, there are 6 [Pre-defined SEO Rules](#pre-defined-seo-rules) in this package.
 
 `IMG_ALT`, `HTML_A`, `HEADER_TITLE`, `HEADER_META`, `STRONG`, `H1`
