@@ -1,6 +1,6 @@
 {
   "name": "node-seo-validator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "SEO validator for static html file.",
   "main": "index.js",
   "dependencies": {

@@ -10,6 +10,14 @@ yarn add node-seo-validator
 npm install --save node-seo-validator
 ```
 
+## Test
+
+```bash
+yarn test
+# or
+npm test
+```
+
 ## Usage
 
 ### seo(htmlFilePath, outputLogPath, applyRules)
