@@ -14,8 +14,11 @@ function output(validateResult, destination) {
 
   const defaultOutput = './seo.log'
   const output = destination || defaultOutput
+  const textOutput = validateResult.reduce((text, r) => {
+    return text + `${r[0]}: ${r[1]}\n`
+  }, '')
 
-  fs.writeFileSync(`${output}`, table.toString())
+  fs.writeFileSync(`${output}`, textOutput)
   console.log(`Output file: ${output}`)
   console.log(table.toString())
 }
